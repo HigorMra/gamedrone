@@ -50,7 +50,9 @@ public static class DronePrototypeSceneBuilder
 
     static Material Mat(string name, Color color, float metallic=0f, float smooth=0.15f)
     {
-        var m = new Material(Shader.Find("Standard")) { name=name, color=color, metallic=metallic, smoothness=smooth, enableInstancing=true };
+        var m = new Material(Shader.Find("Standard")) { name=name, color=color, enableInstancing=true };
+        m.SetFloat("_Metallic", metallic);
+        m.SetFloat("_Glossiness", smooth);
         return SaveAsset(m);
     }
 
