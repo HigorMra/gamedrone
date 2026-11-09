@@ -1,6 +1,6 @@
 # FLUXO — Drone Flight Lab (Unity)
 
-Projeto Unity independente dos voting games, configurado para Unity **6000.3.28f1 (Unity 6.3 LTS)**, a versão LTS indicada na captura do Hub. Usa o renderizador **Built-in Render Pipeline**: não está em URP nem HDRP. Para esse primeiro protótipo leve, os materiais usam o shader Standard, com anti-aliasing, sombras suaves, névoa, iluminação fria e cores de vértice no concreto. Não requer Asset Store, plugins ou pacotes de terceiros. Os modelos, terreno, vegetação e materiais são criados proceduralmente no Editor. Consulte as [notas oficiais do Unity 6000.3.28f1](https://unity.com/releases/editor/whats-new/6000.3.28f1).
+Projeto Unity independente dos voting games, configurado para Unity **6000.3.28f1 (Unity 6.3 LTS)**, a versão LTS indicada na captura do Hub. Usa o renderizador **Built-in Render Pipeline**: não está em URP nem HDRP. Para esse primeiro protótipo leve, os materiais usam o shader Standard, com anti-aliasing, sombras suaves, névoa, iluminação fria e cores de vértice no concreto. Não requer Asset Store, plugins ou pacotes de terceiros. O manifesto mantém apenas o módulo Built-in de Física; a entrada inválida `com.unity.modules.input` foi removida. Os modelos, terreno, vegetação e materiais são criados proceduralmente no Editor. Consulte as [notas oficiais do Unity 6000.3.28f1](https://unity.com/releases/editor/whats-new/6000.3.28f1).
 
 ## Abrir
 
